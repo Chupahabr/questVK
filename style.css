@@ -1,0 +1,34 @@
+#auth, #next{
+	width: 200px;
+	border-radius: 10px;
+	background: #3c710a;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 2;
+	cursor: pointer;
+}
+#next{
+	line-height: 2.6;
+}
+#auth:hover, #next:hover{
+	filter: sepia(0.25);
+}
+#form-vk-user{
+	margin-bottom: 30px;
+}
+form#form-vk{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 250px;
+	gap: 10px;
+}
+.group-vk{
+	cursor: pointer;
+}
+#content{
+	display: flex;
+    flex-direction: column;
+}
